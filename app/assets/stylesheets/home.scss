@@ -1,0 +1,142 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.mainContent {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.content ul li {
+  width: 8%;
+}
+
+.content {
+  width: 95%;
+  position: absolute;
+  /*bottom: 4px;*/
+  left: 3.5%;
+}
+
+.content img {
+  display: inline;
+  width: 24%;
+  height: auto;
+  margin: 2% 2.7%;
+  border: 1px solid black;
+  background-color: #FFF;
+}
+
+.thermal-white {
+  /*width: 27%;*/
+  display: inline;
+  margin: 0 0 0 5%;
+}
+
+.corrosion-white {
+  /*width: 27%;*/
+  display: inline;
+}
+
+.fire-white {
+  /*width: 27%;*/
+  display: inline;
+}
+
+/*#text {
+  position: absolute;
+  width: 20%;
+  margin: 0 0 0 100px;
+}*/
+ul.main-text {
+  margin-left: 2.5%;
+  font-size: 1em;
+  font-family: "Trajan Pro";
+}
+
+ul.main-text li {
+  position: absolute;
+  list-style: none;
+  float: left;
+  margin: 2.2% 0 0 0;
+  width: 26%;
+  text-align: center;
+  z-index: 100;
+}
+
+ul.main-text li:nth-child(2) {
+  position: absolute;
+  list-style: none;
+  float: left;
+  margin: 2.2% 0 0 0;
+  width: 86%;
+  text-align: center;
+  z-index: 100;
+}
+
+ul.main-text li:nth-child(3) {
+  position: absolute;
+  list-style: none;
+  float: left;
+  margin: 2.2% 0 0 0;
+  width: 146%;
+  text-align: center;
+  z-index: 100;
+}
+
+// .thermal-text {
+//   position: absolute;
+//   top: 60px;
+//   left: 145px;
+//   /*height: auto;*/
+//   width: 1%;
+// }
+//
+// .corrosion-text {
+//   position: absolute;
+//   top: 60px;
+//   left: 457px;
+//   width: 1%;
+//   font-size: 2em;
+//   font-family: "Trajan Pro";
+// }
+//
+// .fire-text {
+//   position: absolute;
+//   top: 60px;
+//   left: 840px;
+//   width: 1%;
+//   font-size: 2em;
+//   font-family: "Trajan Pro";
+// }
+
+
+.intro {
+  /*display: inline-block;*/
+  /*position: relative;*/
+  padding: 1.5% 5% 0 5%;
+  margin-top: 25%;
+  /*margin: 400px 10px 40px 10px;*/
+  width: auto;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 150%;
+  font-weight: 300;
+  color: grey;
+  color: black;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
+img[src="/assets/phone.png"] {
+  // position: relative;
+  display: block;
+  text-align: center;
+  // width: 59%;
+  height: auto;
+  // margin: -10px 100px 0 0;
+  cursor: pointer;
+  z-index: 1000;
+}

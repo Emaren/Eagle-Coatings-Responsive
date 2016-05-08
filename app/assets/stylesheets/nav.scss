@@ -1,0 +1,66 @@
+
+hr {
+  display: block;
+  height: 1px;
+  border-top: 1px solid black;
+  margin: -.8% 0 .5% 1%;
+}
+
+.mainHeader img {
+  width: 30%;
+  height: auto;
+}
+
+.mainHeader nav {
+  height: 40px;
+  margin-top: -4%;
+}
+
+.mainHeader nav ul li:nth-child(1) {
+  margin-left: 28%;
+}
+
+.mainHeader nav ul li {
+  float: left;
+  font-size: 1.2em;
+  display: inline;
+  padding-left: 7%;
+}
+
+.mainHeader .search {
+  width: 8%;
+  height: auto;
+  float: right;
+  margin: -10% 2.5% 0 0;
+  clear: none;
+  z-index: 1;
+}
+
+.mainHeader .product-inventory {
+  width: 11%;
+  height: auto;
+  float: right;
+  margin: -4% 0 0 0;
+  clear: both;
+}
+
+
+.mainHeader nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+  color: black;
+  display: inline;
+  padding: 10px 0px 0px 25px;
+  width: 100%;
+  height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+  background-color: #CF5C35;
+  text-shadow: none;
+}

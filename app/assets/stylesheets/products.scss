@@ -1,0 +1,205 @@
+.products-container {
+  font-size: 2.5em;
+  columns: 2;
+  // width: 100%;
+  margin: 2% 1% 3% 7%;
+  display: table;
+  // text-align: center;
+  h6 {
+    font-family: 'Poiret One', cursive;
+    // display: none;
+  }
+}
+
+.products-background {
+  // width: 20%;
+  position: fixed;
+  margin: 0 1% 1% 18%;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+
+.products-list {
+  font-size: 1.7em;
+}
+
+.thermal-list button {
+  background-color: rgba(134, 97, 16, 0.32);
+}
+
+.corrosion-list button {
+  background-color: rgba(134, 97, 16, 0.32);
+}
+
+.fire-list button {
+  background-color: rgba(149, 39, 4, 0.32);
+}
+
+.concrete-list button {
+  background-color: rgba(61, 61, 60, 0.32);
+}
+
+.graffiti-list button {
+  background-color: rgba(7, 4, 152, 0.32);
+}
+
+button {
+  float: left;
+  width: 430px;
+  height: 90px;
+  margin: 2% 1% 1% 4%;
+  // font-size: 1em;
+  columns: 2;
+  a {
+    font-size: .9em;
+  }
+  .description {
+    float: right;
+    font-size: .45em;
+    // columns: 1;
+  }
+  i {
+    font-size: .5em;
+    text-align: center;
+  }
+}
+
+.hot-surface-name {
+  font-size: .7em;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: .4em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(134, 97, 16, 0.32);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 10px 10px rgba(66, 66, 66, 0.7);
+}
+
+.button:hover {background-color: rgba(144, 144, 143, 0.32)}
+
+.button:active {
+  background-color: rgba(134, 97, 16, 0.32);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1em;
+  font-family: 'Alike';
+  // background-color: #262626;
+  color: rgb(74, 74, 74);
+}
+body {
+  margin: 0;
+}
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto';
+  line-height: 1.313em;
+}
+h1 {
+  font-size: 3em;
+  margin: 0.563em 0;
+}
+h2 {
+  font-size: 2.25em;
+  margin: 0.625em 0;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 1.313em 0;
+}
+h4 {
+  font-size: 1.313em;
+  margin: 1.313em 0;
+}
+h5 {
+  font-size: 1.125em;
+  margin: 1.313em 0;
+}
+h6 {
+  font-size: 1em;
+  margin: 0.75em 0;
+}
+
+.right-main {
+  padding: 1.6em 7em 0em 52%;
+  background-position: 6% 51%;
+}
+
+.content-main {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #262626;
+  background-size: 47% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.right {
+  padding: 1.618em 6.472em 3.236em 50%;
+  background-position: 0 50%;
+}
+
+.content {
+  font-size: 1.7rem;
+  color: #262626;
+  background-size: 49% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.separator {
+  font-size: 1.875rem;
+  padding: 1.618em 0;
+  text-align: center;
+}
+
+.illustration_01-supertherm {
+  background-image: url("/assets/supertherm-12.jpg");
+  // margin: 0px 0px 0px 90px;
+}
+
+.illustration_02-supertherm {
+  background-color: rgba(129, 80, 16, 0.69);
+  background-image: url("/assets/supertherm-11.jpg");
+}
+
+.illustration_03-supertherm {
+  background-color: grey;
+  background-image: url("/assets/supertherm-3.jpg");
+}
+.illustration_04-supertherm {
+  background-color: white;
+  background-image: url("/assets/Supertherm-9.jpg");
+}
+
+.left {
+  padding: 1.618em 50% 3.236em 6.472em;
+  background-position: 100% 50%;
+}
