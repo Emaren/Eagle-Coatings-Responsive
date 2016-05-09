@@ -5,23 +5,30 @@
   margin: 3% 10% 0 7%;
 }
 
-.payments {
-  text-align: center;
-  width: 80%;
-  margin: 0 0 1% 10%;
-  font-family: 'Nunito', sans-serif;
-  font-size: .4em;
-  line-height: 150%;
-}
-
 .payments-background {
   position: fixed;
-  margin: 1% 0 0 22%;
+  margin: 1% 0 0 30%;
   opacity: 0.05;
   z-index: 1;
 }
 
-img[src="/assets/phone.png"] {
-  margin: 4.5% 47%;
-  // width: 100%;
+.coming-soon {
+  font-size: .6em;
+  position: relative;
+  font-family: 'Poiret One';
+  margin: 10.7% 5% 8.9% .5%;
+  opacity: .8;
+  width: 92.5%;
+
+  text-align: center;
 }
+
+
+// .payments {
+//   text-align: center;
+//   width: 80%;
+//   margin: 0 0 1% 10%;
+//   font-family: 'Nunito', sans-serif;
+//   font-size: .4em;
+//   line-height: 150%;
+// }

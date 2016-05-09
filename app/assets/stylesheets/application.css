@@ -23,6 +23,7 @@
    font-family: Arial, 'Lucida Sans Unicode';
    line-height: 1.5;
    text-align: left;
+   margin: auto;
  }
 
  a {
@@ -40,6 +41,8 @@
 
  .body {
    margin: auto;
-   width: 80%;
+   width: auto;
    clear: both;
+   /*padding: 1em -5em 0 0;*/
+   /*margin: 1em -5em 0 0;*/
  }
