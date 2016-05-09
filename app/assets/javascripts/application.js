@@ -14,3 +14,21 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function(){
+
+  $("img[src='/assets/thermal.png'], .thermal-text").click(function() {
+    $( '.thermal-parallax' ).show( "slow" );
+  });
+
+  $("img[src='/assets/co.png'], .corrosion-text").click(function() {
+    $( '.corrosion-parallax' ).show( "slow" );
+  });
+
+  $("img[src='/assets/fire.png'], .fire-text").click(function() {
+    $( '.fire-parallax' ).show( "slow" );
+  });
+
+
+
+
+});

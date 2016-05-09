@@ -86,35 +86,92 @@ img[src="/assets/shadow-2.png"] {
 }
 
 .illustration_01-supertherm {
-  // background-color: #00c17b;
-  // padding: 1em 0;
   width: 92%;
-  // top: 1000px;
   margin: 12.9% 0 0 5%;
-   background-image: url("/assets/supertherm-12.jpg");
  background-attachment: fixed;
  background-position: 2% 60%;
+ background-image: url("/assets/supertherm-12.jpg");
  // background-repeat: no-repeat;
 }
 
 .illustration_02-supertherm {
-  // width: 10px;
   background-color: rgba(129, 80, 16, 0.69);
   margin: 0 0 0 0;
   background-image: url("/assets/supertherm-11.jpg");
 }
 
 .illustration_03-supertherm {
-  // width: auto;
   margin: 0 0 0 0;
-  // margin: auto;
   background-color: grey;
   background-image: url("/assets/supertherm-3.jpg");
 }
 .illustration_04-supertherm {
-  // width: auto;
   margin: 0 0 0 0;
-  // margin: auto;
   background-color: white;
   background-image: url("/assets/Supertherm-9.jpg");
+}
+.right-main {
+  padding: 1.6em 7em 0em 52%;
+  background-position: 26% 51%;
+}
+
+.content-main {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #262626;
+  background-size: 47% auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.illustration_01 {
+  width: 92%;
+  margin: 12.9% 0 0 5%;
+  background-attachment: fixed;
+  background-position: 2% 67%;
+  background-image: url("/assets/rg-1.jpg");
+}
+
+.illustration_02 {
+  margin: 0 0 0 0;
+  background-color: rgba(129, 80, 16, 0.69);
+  background-image: url("/assets/rg-2.jpg");
+}
+
+.illustration_03 {
+  margin: 0 0 0 0;
+  background-color: grey;
+  background-image: url("/assets/rg-10.jpeg");
+}
+.illustration_04 {
+  margin: 0 0 0 0;
+  background-color: white;
+  background-image: url("/assets/rg-4.jpg");
+}
+
+.illustration_01-hotpipe {
+  width: 92%;
+  margin: 12.9% 0 0 5%;
+  background-attachment: fixed;
+  background-position: 2% 67%;
+  background-image: url("/assets/hp-1.jpeg");
+}
+
+.illustration_02-hotpipe {
+  margin: 0 0 0 0;
+  background-color: rgba(129, 80, 16, 0.69);
+  background-image: url("/assets/hp-2.jpg");
+}
+
+.illustration_03-hotpipe {
+  margin: 0 0 0 0;
+  background-color: grey;
+  background-image: url("/assets/hp-3.jpg");
+}
+
+.illustration_04-hotpipe {
+  margin: 0 0 0 0;
+  background-color: white;
+  background-image: url("/assets/hp-4.jpeg");
 }
