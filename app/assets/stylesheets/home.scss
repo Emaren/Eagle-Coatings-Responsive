@@ -91,6 +91,9 @@ div.mainContent-container {
 }
 
 .thermal-parallax {
+  // position: absolute;
+  position: relative;
+  top: -200px;
   display: none;
 }
 .corrosion-parallax {

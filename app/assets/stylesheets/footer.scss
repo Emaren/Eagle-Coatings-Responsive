@@ -1,22 +1,135 @@
 img[src="/assets/phone.png"] {
   margin: 2% 0 3% 47%;
-  // width: 100%;
 }
 
 .mainFooter {
   margin: 0 0 5% 28.3%;
 }
 
+div.p-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.p-footer-title {
+    position: relative;
+    top: -16px;
+    left: -15%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+    text-align: center;
+}
+div.c-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.c-footer-title {
+    position: relative;
+    top: -16px;
+    left: -8%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.i-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.i-footer-title {
+    position: relative;
+    top: -16px;
+    left: -8%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.y-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.y-footer-title {
+    position: relative;
+    top: -16px;
+    left: 6.5%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.t-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.t-footer-title {
+    position: relative;
+    top: -16px;
+    left: 10%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.f-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.f-footer-title {
+    position: relative;
+    top: -16px;
+    left: 1%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.e-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.e-footer-title {
+    position: relative;
+    top: -16px;
+    left: 8%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+div.a-footer-title {
+  font-size: .7em;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 2s linear;
+}
+a:hover + div.a-footer-title {
+    position: relative;
+    top: -16px;
+    left: 3%;
+    text-shadow: 1px 1px rgba(#4b4b4b, 0.54);
+    visibility: visible;
+    opacity: 1;
+    overflow:hidden;
+}
+
 .mainFooter img {
   display: inline;
-  // width: 4%;
-  // height: auto;
-  // left: 25.3%;
-  // margin: 1% 1% 0 1%;
-  /*width: 100%;
-  height: auto;
-  position: relative;
-  margin: 2% 10% 0 10%;*/
 }
 
 footer ul li {
