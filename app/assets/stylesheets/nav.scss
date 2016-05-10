@@ -1,8 +1,4 @@
-// .mainHeader nav ul li a {
-//   border-radius: 5px;
-//   -moz-border-radius: 5px;
-//   -webkit-border-radius: 5px;
-// }
+
 .mainHeader img {
   width: 30%;
   height: auto;
@@ -20,7 +16,6 @@
 .mainHeader nav ul li {
   font-size: 1.2em;
   font-weight: 100;
-  // width: 17%;
   float: left;
   font-size: 1.2em;
   display: inline;
@@ -52,21 +47,6 @@ hr {
   margin: -.8% 0 .5% 1%;
 }
 
-// .mainHeader nav a:link, .mainHeader nav a:visited {
-//   color: black;
-//   display: inline;
-//   padding: 10px 0px 0px 25px;
-//   width: 100%;
-//   height: 20px;
-// }
-//
-// .mainHeader nav a:hover, .mainHeader nav a:active,
-// .mainHeader nav .active a:link, .mainHeader nav .active a:visited {
-//   background-color: #CF5C35;
-//   text-shadow: none;
-// }
-
-
 
 
 
@@ -80,7 +60,6 @@ hr {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  // position: relative;
   overflow: hidden;
 }
 
