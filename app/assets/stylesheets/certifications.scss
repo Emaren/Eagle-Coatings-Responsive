@@ -1,0 +1,112 @@
+table {
+  width: 90%;
+  font-size: 1.1em;
+}
+
+.five-message {
+  width: 70%;
+  font-weight: 600;
+}
+
+table tr {
+  // display: none;
+}
+
+table tr th {
+  height: 100px;
+}
+
+table tr td img {
+  // width: 10%;
+  height: 100px;
+  margin: 0 5% 0 5%;
+}
+
+table tr td:nth-child(1) {
+  width: 15%;
+  padding: 0 0;
+  height: auto;
+  line-height: 100%;
+  text-align: center;
+}
+table tr td:nth-child(2) {
+  width: 75%;
+  padding: 0 5%;
+  height: 50px;
+}
+table tr td:nth-child(3) {
+  width: 10%;
+  padding: 0 5%;
+  height: 50px;
+}
+table tr td:hover {
+  background-color: rgba(134, 97, 16, 0.32);
+  border-radius: 50px;
+  cursor: pointer;
+}
+table tr td:nth-child(3) {
+  text-align: center;
+}
+table ul li {
+  list-style: none;
+  // font-size: .1em;
+}
+
+
+
+// table tr td li {
+//   margin: 0 4% 1% 0%;
+//   font-size: 1.1em;
+// }
+
+// .certifications-container {
+//   width: 99%;
+//   font-size: 1.2em;
+//   // float: left;
+// }
+//
+// div ol li {
+//   float: left;
+// }
+//
+// div ol li img {
+//   float: left;
+//   margin-top: 1%;
+//   // margin: 0 0 0 0;
+//   // clear: both;
+//   // display: block;
+// }
+//
+// div ol li ul {
+//   float: left;
+//   width: 85%;
+//   margin-top: 1%;
+// }
+//
+// div ol li ul li {
+//   float: left;
+//   list-style: none;
+//   width: 100%;
+//   padding: 0 5% 0 0;
+//   margin: 1% 0;
+//   // columns: 2;
+// }
+//
+// div ol li ul span {
+//   float: right;
+//   list-style: none;
+//   width: 10%;
+//   padding: 0 0 0 12%;
+//   text-align: center;
+//   // columns: 2;
+// }
+//
+// div ol li ul li img {
+//   float: left;
+//   list-style: none;
+//   margin: 0 0 0 -100px;
+// }
+//
+// div ol li {
+//   float: left;
+// }

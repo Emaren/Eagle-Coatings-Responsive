@@ -1,28 +1,94 @@
-.documents-container {
-  // height: 40px;
-  // margin-top: -4%;
-}
-
-// .documents-container ul li {
-// }
-
 ul.icon li {
   list-style: none;
-  // display: inline;
   float: left;
-  padding: 2% 0 0 5.5%;
+  padding: 3% 5.5% 0 9%;
   margin-bottom: -10px;
   width: 18%;
   text-align: center;
-
 }
 
 ul.text li {
   list-style: none;
-  // display: inline;
+  font-size: .8em;
   float: left;
-  // margin-top: -5%;
-  padding: 0 0 0 5.5%;
+  padding: 0 5.5% 0 9%;
   width: 18%;
   text-align: center;
+  line-height: 130%;
+}
+
+.certifications-text {
+  position: relative;
+  left: -7px;
+}
+
+.application-instructions-text {
+  position: relative;
+  left: -4px;
+}
+
+object {
+  position: relative;
+  margin: 4% 0 0 0;
+  height: 1170px;
+  width: 60%;
+  display: none;
+  // visibility: hidden;
+  // :active {
+    // display: block;
+    // visibility: visible;
+  // }
+  // text-align: center;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    display: block;
+    top: -99999px;
+    left: -99999px;
+}
+
+label {
+  // position: relative;
+  //  display: block;
+  //  width: 38px;
+  //  height: 38px;
+   cursor: pointer;
+  //  background: blue;
+  //  border-radius: 100%;
+  //  color: white;
+}
+
+label:after {
+    // content: '+';
+    position: absolute;
+    top: 2px;
+    left: 11px;
+    font-size: 30px;
+    line-height: 1em;
+    font-family: sans-serif;
+}
+
+.hide-show {
+    display: none;
+    margin: 50%;
+    // padding: 10px;
+    width: 1000px;
+    // height: 100px;
+    font-family: sans-serif;
+    border: 1px solid black;
+}
+
+input[type="checkbox"]:checked ~ label {
+    // background: green;
+}
+input[type="checkbox"]:checked ~ label:after {
+    // content: '-';
+    // left: 15px;
+}
+input[type="checkbox"]:checked ~ .hide-show {
+    display: block;
+}
+input[type="checkbox"]:checked ~ .parallax-container {
+    display: none;
 }
