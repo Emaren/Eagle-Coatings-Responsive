@@ -16,6 +16,8 @@
 !/log/.keep
 /tmp
 
+*.jpg
+*.jpeg
 *.svg
 *.psd
 *.mp4
