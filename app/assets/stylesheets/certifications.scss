@@ -3,8 +3,15 @@ table {
   font-size: 1.1em;
 }
 
+td.before-message {
+  height: 5px;
+  display: none;
+  // margin: 1% 1%;
+}
+
 .five-message {
-  width: 70%;
+  // display: none;
+  width: 100%;
   font-weight: 600;
 }
 
@@ -49,64 +56,4 @@ table tr td:nth-child(3) {
 }
 table ul li {
   list-style: none;
-  // font-size: .1em;
 }
-
-
-
-// table tr td li {
-//   margin: 0 4% 1% 0%;
-//   font-size: 1.1em;
-// }
-
-// .certifications-container {
-//   width: 99%;
-//   font-size: 1.2em;
-//   // float: left;
-// }
-//
-// div ol li {
-//   float: left;
-// }
-//
-// div ol li img {
-//   float: left;
-//   margin-top: 1%;
-//   // margin: 0 0 0 0;
-//   // clear: both;
-//   // display: block;
-// }
-//
-// div ol li ul {
-//   float: left;
-//   width: 85%;
-//   margin-top: 1%;
-// }
-//
-// div ol li ul li {
-//   float: left;
-//   list-style: none;
-//   width: 100%;
-//   padding: 0 5% 0 0;
-//   margin: 1% 0;
-//   // columns: 2;
-// }
-//
-// div ol li ul span {
-//   float: right;
-//   list-style: none;
-//   width: 10%;
-//   padding: 0 0 0 12%;
-//   text-align: center;
-//   // columns: 2;
-// }
-//
-// div ol li ul li img {
-//   float: left;
-//   list-style: none;
-//   margin: 0 0 0 -100px;
-// }
-//
-// div ol li {
-//   float: left;
-// }

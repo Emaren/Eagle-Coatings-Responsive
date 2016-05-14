@@ -3,9 +3,14 @@ box-sizing: border-box;
 margin: auto;
 }
 
-img {
-max-width: 100%;
-height: auto;
+div div img {
+  margin: 0% 0 0 0%;
+  // padding: 1em 1em 1em 50%;
+  background-position: 0 0%;
+  float: right;
+max-width: 50%;
+// height: auto;
+  display: none;
 }
 h1,h2,h3,h4,h5,h6 {
 font-family: 'Roboto';
@@ -39,18 +44,16 @@ margin: 0.75em 0;
 }
 
 img[src="/assets/shadow-1.png"] {
-  position: absolute;
-  // margin-top: 1.7em;
-  left: 3em;
-  width: 49%;
-  z-index: 100;
+  float: left;
+  // padding: 1em 1em 1em 100%;
+  background-position: 0 50%;
+
+  width: 50%;
+  z-index: 1000;
 }
 img[src="/assets/shadow-2.png"] {
-  position: absolute;
-  margin-top: -5.2em;
-  left: 3em;
-  width: 49%;
-  z-index: 100;
+  margin: 1px 1px;
+  // z-index: 100;
 }
 
 .parallax-content {
@@ -68,7 +71,12 @@ img[src="/assets/shadow-2.png"] {
 .right {
   padding: 1em 1em 1em 50%;
   background-position: 0 50%;
-  margin: 0 0 0 -10em;
+  // margin: 0 0 0 -10em;
+}
+
+.right img {
+  // padding: 1em 50% 1em 1em ;
+  // float: left;
 }
 
 .left {
@@ -80,7 +88,7 @@ img[src="/assets/shadow-2.png"] {
   // position: relative;
   font-size: 1.875rem;
   // display: block;
-  // margin: 26em auto;
+  // margin: 2em;
   // padding: 25.618em 0;
   text-align: center;
 }
