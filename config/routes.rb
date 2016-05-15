@@ -53,11 +53,11 @@ Rails.application.routes.draw do
 
   get 'products/enamogripclear'
 
-  get 'products/enamogripclear1000'
+  get 'products/enamogrip1000'
 
-  get 'products/enamogripclear3700'
+  get 'products/enamogrip3700'
 
-  get 'products/enamogripclear5000'
+  get 'products/enamogrip5000'
 
   get 'products/aquapox'
 

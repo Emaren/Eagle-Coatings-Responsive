@@ -68,13 +68,13 @@ class ProductsController < ApplicationController
   def enamogripclear
   end
 
-  def enamogripclear1000
+  def enamogrip1000
   end
 
-  def enamogripclear3700
+  def enamogrip3700
   end
 
-  def enamogripclear5000
+  def enamogrip5000
   end
 
   def aquapox

@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-.supertherm-container {
+.totalseal-container {
   margin-top: -150px;
 }
 
@@ -19,6 +19,7 @@ div div img {
   max-width: 50%;
   visibility: hidden;
 }
+
 h1,h2,h3,h4,h5,h6 {
 font-family: 'Roboto';
 line-height: 1.313em;
@@ -61,11 +62,11 @@ img[src="/assets/shadow-2.png"] {
   margin: 1px 1px;
 }
 
-.parallax-content {
+.totalseal-parallax-content {
   position: relative;
   width: 100%;
   display: block;
-  margin: 0 0 0 -35%;
+  // margin: 0 0 0 0%;
   font-size: 1rem;
   color: #262626;
   background-size: 49% auto;
@@ -85,35 +86,9 @@ img[src="/assets/shadow-2.png"] {
 
 .separator {
   font-size: 1.875rem;
-
   text-align: center;
 }
 
-.illustration_01-supertherm {
-  width: 92%;
-  margin: 12.9% 0 0 5%;
- background-attachment: fixed;
- background-position: 2% 60%;
- background-image: url("/assets/supertherm-12.jpg");
- z-index: -1000;
-}
-
-.illustration_02-supertherm {
-  background-color: rgba(129, 80, 16, 0.69);
-  margin: 0 0 0 0;
-  background-image: url("/assets/supertherm-11.jpg");
-}
-
-.illustration_03-supertherm {
-  margin: 0 0 0 0;
-  background-color: grey;
-  background-image: url("/assets/supertherm-3.jpg");
-}
-.illustration_04-supertherm {
-  margin: 0 0 0 0;
-  background-color: white;
-  background-image: url("/assets/Supertherm-9.jpg");
-}
 .right-main {
   padding: 1.6em 7em 0em 52%;
   background-position: 26% 51%;
@@ -129,53 +104,27 @@ img[src="/assets/shadow-2.png"] {
   background-repeat: no-repeat;
 }
 
-.illustration_01 {
+.illustration_01-totalseal {
   width: 92%;
   margin: 12.9% 0 0 5%;
   background-attachment: fixed;
   background-position: 2% 67%;
-  background-image: url("/assets/rg-1.jpg");
+  background-image: url("/assets/tc.jpg");
 }
 
-.illustration_02 {
+.illustration_02-totalseal {
   margin: 0 0 0 0;
   background-color: rgba(129, 80, 16, 0.69);
-  background-image: url("/assets/rg-2.jpg");
+  background-image: url("/assets/tc4.jpeg");
 }
 
-.illustration_03 {
+.illustration_03-totalseal {
   margin: 0 0 0 0;
   background-color: grey;
   background-image: url("/assets/rg-10.jpeg");
 }
-.illustration_04 {
+.illustration_04-totalseal {
   margin: 0 0 0 0;
   background-color: white;
   background-image: url("/assets/rg-4.jpg");
-}
-
-.illustration_01-hotpipe {
-  width: 92%;
-  margin: 12.9% 0 0 5%;
-  background-attachment: fixed;
-  background-position: 2% 67%;
-  background-image: url("/assets/hp-1.jpeg");
-}
-
-.illustration_02-hotpipe {
-  margin: 0 0 0 0;
-  background-color: rgba(129, 80, 16, 0.69);
-  background-image: url("/assets/hp-2.jpg");
-}
-
-.illustration_03-hotpipe {
-  margin: 0 0 0 0;
-  background-color: grey;
-  background-image: url("/assets/hp-3.jpg");
-}
-
-.illustration_04-hotpipe {
-  margin: 0 0 0 0;
-  background-color: white;
-  background-image: url("/assets/hp-4.jpeg");
 }
