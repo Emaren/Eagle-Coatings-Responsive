@@ -17,6 +17,23 @@
 $(document).ready(function(){
 
 
+  $('img.thermal').click(function(){
+         video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+         $(this).replaceWith(video);
+     });
+
+  $(".tds").click(function(){
+    $(".supertherm-container").css('display', 'none');
+    $(".supertherm-certifications-container").css('display', 'none');
+    $("embed").css('display', 'inline-block');
+  });
+
+  $(".supertherm-certifications").click(function(){
+    $(".supertherm-container").css('display', 'none');
+    // $(".supertherm-certifications-container").css('display', 'none');
+    // $("embed").css('display', 'inline-block');
+  });
+
   // $("img[src='/assets/thermal.png'], .thermal-text").click(function() {
   //   $( '.thermal-parallax' ).show( "slow" );
   // });

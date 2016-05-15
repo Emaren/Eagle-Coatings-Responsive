@@ -21,9 +21,9 @@
    color: #000305;
    font-size: 87.5%;
    font-family: Arial, 'Lucida Sans Unicode';
-   line-height: 1.5;
+   /*line-height: 1.5;*/
    text-align: left;
-   margin: auto;
+   /*margin: auto;*/
  }
 
  a {
@@ -39,10 +39,4 @@
    /*color: #FFF;*/
  }
 
- .body {
-   margin: auto;
-   width: auto;
-   clear: both;
-   /*padding: 1em -5em 0 0;*/
-   /*margin: 1em -5em 0 0;*/
- }
+html,body{height:100%;margin:0 0;padding:0 0;}

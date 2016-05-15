@@ -6,7 +6,7 @@
 div ul {
   display: inline-block;
   width: 95%;
-  margin: 4% 0 0 0;
+  margin: 3% 0 0 0;
   line-height: 130%;
   vertical-align: top;
   text-align: center;
@@ -34,18 +34,21 @@ div ul li a {
   // width: 25px;
 }
 
-div ul li span.tds {
+div ul li span.supertherm-tds-span {
   font-size: .95em;
-  display: inline-block;
+  display: inline;
+  // width: 20%;
   // margin-top: -50px;
   text-align: center;
   // display: none;
 }
 
-object {
-  // visibility: hidden;
-  display: none;
-}
+
+
+// object {
+//   // visibility: hidden;
+//   display: none;
+// }
 
 
 /* Wobble Bottom */

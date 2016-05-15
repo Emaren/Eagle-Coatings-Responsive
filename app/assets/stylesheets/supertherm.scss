@@ -1,10 +1,21 @@
 * {
-  box-sizing: border-box;
-  margin: auto;
+  // box-sizing: border-box;
+  // margin: auto;
+}
+
+embed {
+  margin: 3% 25%;
+  width: 50%;
+  display: none;
+
 }
 
 .supertherm-container {
-  margin-top: -150px;
+  margin-top: -9%;
+}
+
+.supertherm-certifications-container {
+  margin-top: 3%;
 }
 
 div img {
@@ -58,6 +69,15 @@ img[src="/assets/shadow-1.png"] {
 }
 img[src="/assets/shadow-2.png"] {
   margin: 1px 1px;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 150%;
+}
+
+table {
+  margin: 0 0 0 7%;
 }
 
 .supertherm-parallax-content {
