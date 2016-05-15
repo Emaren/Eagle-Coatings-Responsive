@@ -1,94 +1,136 @@
-ul.icon li {
-  list-style: none;
-  float: left;
-  padding: 3% 5.5% 0 9%;
-  margin-bottom: -10px;
-  width: 18%;
-  text-align: center;
+.documents-container {
+  width: 100%;
 }
 
-ul.text li {
-  list-style: none;
-  font-size: .8em;
-  float: left;
-  padding: 0 5.5% 0 9%;
-  width: 18%;
-  text-align: center;
+div ul {
+  display: inline-block;
+  width: 95%;
+  margin: 4% 0 0 0;
   line-height: 130%;
+  vertical-align: top;
+  text-align: center;
 }
 
-.certifications-text {
-  position: relative;
-  left: -7px;
+div ul li {
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 9%;
+  // text-align: center;
+  // width: 80%;
+  a {
+    display: inline-block;
+    // display: none;
+  }
+  // a:hover {
+  //   background: linear-gradient(to right, rgba(255,0,0,0), rgba(85, 84, 84, .5));
+  //   border-radius: 10px;
+  //   // opacity: .2;
+  // }
 }
 
-.application-instructions-text {
-  position: relative;
-  left: -4px;
+div ul li a {
+  // width: 25px;
+}
+
+div ul li span.tds {
+  font-size: .95em;
+  display: inline-block;
+  // margin-top: -50px;
+  text-align: center;
+  // display: none;
 }
 
 object {
-  position: relative;
-  margin: 4% 0 0 0;
-  height: 1170px;
-  width: 60%;
-  display: none;
   // visibility: hidden;
-  // :active {
-    // display: block;
-    // visibility: visible;
-  // }
-  // text-align: center;
+  display: none;
 }
 
-input[type="checkbox"] {
-    position: absolute;
-    display: block;
-    top: -99999px;
-    left: -99999px;
+
+/* Wobble Bottom */
+@-webkit-keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
 }
 
-label {
-  // position: relative;
-  //  display: block;
-  //  width: 38px;
-  //  height: 38px;
-   cursor: pointer;
-  //  background: blue;
-  //  border-radius: 100%;
-  //  color: white;
+@keyframes hvr-wobble-bottom {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
 }
 
-label:after {
-    // content: '+';
-    position: absolute;
-    top: 2px;
-    left: 11px;
-    font-size: 30px;
-    line-height: 1em;
-    font-family: sans-serif;
+.hvr-wobble-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
 }
-
-.hide-show {
-    display: none;
-    margin: 50%;
-    // padding: 10px;
-    width: 1000px;
-    // height: 100px;
-    font-family: sans-serif;
-    border: 1px solid black;
-}
-
-input[type="checkbox"]:checked ~ label {
-    // background: green;
-}
-input[type="checkbox"]:checked ~ label:after {
-    // content: '-';
-    // left: 15px;
-}
-input[type="checkbox"]:checked ~ .hide-show {
-    display: block;
-}
-input[type="checkbox"]:checked ~ .parallax-container {
-    display: none;
+.hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+  -webkit-animation-name: hvr-wobble-bottom;
+  animation-name: hvr-wobble-bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }

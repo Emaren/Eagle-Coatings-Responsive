@@ -1,5 +1,5 @@
 div.mainContent-container {
-  width: 100%;
+  width: 80%;
   margin: 3% 10% -3% 10%;
   position: relative;
   list-style: none;
@@ -9,11 +9,12 @@ div.mainContent-container {
   img {
     position: relative;
     display: inline;
-    width: 20%;
-    margin: 1% 1% 5% 4%;
+    width: 24%;
+    margin: 2% 1% 2% 6%;
     cursor: pointer;
     border: 1px solid black;
-    box-shadow: 10px 10px 20px 1px grey;
+    box-shadow: 5px 7px 30px 3px rgba(74, 74, 74, 0.9);
+    box-shadow: 5px 7px 30px 3px rgba(74, 74, 74, 0.9);
   }
   ul li h6.thermal-text {
     position: absolute;
@@ -71,6 +72,7 @@ div.mainContent-container {
   background-size: 47% auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  visibility: visible;
 }
 .corrosion-content-main {
   font-family: 'Lato', sans-serif;
