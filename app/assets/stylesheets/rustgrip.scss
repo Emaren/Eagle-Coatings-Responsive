@@ -104,18 +104,25 @@ img[src="/assets/shadow-2.png"] {
   background-repeat: no-repeat;
 }
 
+img[src="/assets/shadow-1.png"] {
+  float: left;
+  margin-left: 2.1%;
+  z-index: 1000;
+}
+
 .illustration_01-rustgrip {
   width: 92%;
   margin: 12.9% 0 0 5%;
   background-attachment: fixed;
   background-position: 2% 67%;
-  background-image: url("/assets/tc.jpg");
+  background-image: url("/assets/rg-1.jpg");
+  z-index: -1000;
 }
 
 .illustration_02-rustgrip {
   margin: 0 0 0 0;
   background-color: rgba(129, 80, 16, 0.69);
-  background-image: url("/assets/tc4.jpeg");
+  background-image: url("/assets/rg-2.jpg");
 }
 
 .illustration_03-rustgrip {

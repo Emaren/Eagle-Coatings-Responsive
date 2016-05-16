@@ -22,10 +22,17 @@ $(document).ready(function(){
          $(this).replaceWith(video);
      });
 
-  $(".tds").click(function(){
+
+    //  $( "button" ).click(function() {
+    //    $( "p" ).show( "slow" );
+    //  });
+  $(".supertherm-tds").click(function(){
+    $("#demo").show("fold",1000);
+  });
+  $(".supertherm-application-instructions").click(function(){
     $(".supertherm-container").css('display', 'none');
     $(".supertherm-certifications-container").css('display', 'none');
-    $("embed").css('display', 'inline-block');
+    $(".supertherm-application-instructions-container").show("fold",1000);
   });
 
   $(".supertherm-certifications").click(function(){

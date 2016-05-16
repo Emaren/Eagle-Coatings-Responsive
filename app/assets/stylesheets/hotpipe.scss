@@ -128,3 +128,9 @@ img[src="/assets/shadow-2.png"] {
   background-color: white;
   background-image: url("/assets/hp-4.jpg");
 }
+
+img[src="/assets/shadow-1.png"] {
+  float: left;
+  margin-left: 2.1%;
+  z-index: 1000;
+}
