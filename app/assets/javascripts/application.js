@@ -27,7 +27,7 @@ $(document).ready(function(){
     //    $( "p" ).show( "slow" );
     //  });
   $(".supertherm-tds").click(function(){
-    $("#demo").show("fold",1000);
+    $("#supertherm-tds-pdf").show("fold",1000);
   });
   $(".supertherm-application-instructions").click(function(){
     $(".supertherm-container").css('display', 'none');
@@ -56,18 +56,17 @@ $(document).ready(function(){
 
 
   $("img[src='/assets/thermal.png'], .thermal-text").click(function(){
-    $("img[src='/assets/co.png'], .corrosion-text").fadeOut({
-    }, 1000 );
+    $("img[src='/assets/co.png'], .corrosion-text").css('display', 'none');
     $("img[src='/assets/fire.png'], .fire-text").fadeOut({
     }, 1000 );
-    $("img[src='/assets/thermal.png'], .thermal-text").animate({
-      left: "+=31%"
-    }, 1000 );
-    $("p.intro").hide();
-    $(".mainFooter").hide();
-    $("img[src='/assets/phone.png']").fadeOut({
-    }, 1500 );
-    $(".thermal-parallax").show('scale', 2000);
+    // $("img[src='/assets/thermal.png'], .thermal-text").animate({
+    //   left: "+=31%"
+    // }, 1000 );
+    // $("p.intro").hide();
+    // $(".mainFooter").hide();
+    // $("img[src='/assets/phone.png']").fadeOut({
+    // }, 1500 );
+    // $(".thermal-parallax").show('scale', 2000);
   });
 
 
