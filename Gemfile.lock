@@ -180,6 +180,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest (~> 5.8.4)
   pg
   rails (= 4.2.4)
   rails_12factor
@@ -193,4 +194,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.12.4

@@ -5,7 +5,7 @@
 
 div.mainContent-container {
   width: 80%;
-  margin: 3% 10% -3% 10%;
+  // margin: 3% 10% -3% 10%;
   position: relative;
   list-style: none;
   min-height: 33vh;
@@ -68,6 +68,24 @@ div.mainContent-container {
   font-size: 1.8em;
   font-family: 'Raleway';
   font-weight: 500;
+}
+
+.spi-certified {
+  position: absolute;
+  margin: 8% 0 0 15%;
+  opacity: .7;
+  // padding: 10%;
+}
+
+.chat {
+  position: absolute;
+  // width: 9%;
+  height: auto;
+  float: right;
+  display: inline-block;
+  // padding: 4% 0 0 90%;
+  margin: 9% 2.9% 0 92%;
+  clear: both;
 }
 
 .thermal-content-main {
