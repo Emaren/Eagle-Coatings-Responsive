@@ -16,11 +16,11 @@
 //= require_tree .
 $(document).ready(function(){
 
-
-  $('img.thermal').click(function(){
-         video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
-         $(this).replaceWith(video);
-     });
+  //
+  // $('img.thermal').click(function(){
+  //        video = '<iframe src="'+ $(this).attr('data-video') +'"></iframe>';
+  //        $(this).replaceWith(video);
+  //    });
 
 
     //  $( "button" ).click(function() {
@@ -65,7 +65,7 @@ $(document).ready(function(){
     // $("p.intro").hide();
     // $(".mainFooter").hide();
     // $("img[src='/assets/phone.png']").fadeOut({
-    // }, 1500 );
+    // }, 1500 );o
     // $(".thermal-parallax").show('scale', 2000);
   });
 
